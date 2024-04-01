@@ -1,0 +1,1280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Personal  Styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("iuw7aOsqqRR0geCSI");
+        })();
+    </script>
+
+    <title>Harsh Dhoke - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/assets/hd.svg">
+  </head>
+  <body>
+<!-- ------------- HEADER -------------------->
+    <header class="header" id="header">
+        <nav class="nav container navbar-expand-lg">
+            <a href="#" class="nav__logo navbar-brand ml-3">Harsh Dhoke</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file nav__icon"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class="uil uil-diary nav__icon"></i>Qualification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Blogs
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- THEME CHANGING BUTTONS -->
+                <i data-mode= "dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- ============== MAIN =============== -->
+    <main class="main">
+
+    <!-- ------------- HOME -------------------->
+        <section class="home section home__sec" id="home">
+            <div class="home__container container grid">
+
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/harsh-dhoke-23a6a81a8/" target="_blank" class="home__social-icon" id="myLinkedIn">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/harshdhoke" target="_blank" class="home__social-icon" id="myGithub">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                        <a href="https://twitter.com/Harsh__Dhoke" target="_blank" class="home__social-icon" id="myTwitter">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/the_harsh_dhoke/" target="_blank" class="home__social-icon" id="myInstagram">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/harsh.dhoke.79/" target="_blank" class="home__social-icon" id="myFacebook">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__data">
+                    <small class="home__welcome s-color"> Welcome to my Portfolio Website! </small>
+                    <h1 class="home__title"> Hey I'm </h1>
+                    <div id="typewriter"></div>
+                    <h3 class="home__subtitle" id="home-bio">An proficient software engineer adept at crafting highly scalable systems, with a keen focus on emerging technologies</h3>
+                    <a href="#contact" class="button button--flex contact_button">
+                        Contact Me <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <!-- <span class="home__scroll-name"> Scroll Down </span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+                </a>
+            </div>
+        </section>
+    
+    <!-- ------------- ABOUT ME -------------------->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle"> </span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/Image.png" alt="my achievement photo" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description" id="home-about"> 
+                        I'm a software developer currently pursuing my Masters in Computer Science and Engineering from the National Institute of Technology (NIT), 
+                        Rourkela. Alongside my academic pursuits, I actively engage in research. 
+                        I'm proud to be recognized as an IEEE conference paper awardee, a testament to my dedication to excellence in both academia and industry.
+                    </p>
+                </div>
+
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title"> 8+ </span>
+                        <span class="about__info-name"> Months <br> Experience </span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title"> 10+ </span>
+                        <span class="about__info-name"> Completed <br> Projects </span>
+                    </div>
+
+                    <div>
+                        <span class="about__info-title"> 2+ </span>
+                        <span class="about__info-name"> Companies <br> Worked </span>
+                    </div>
+                </div>
+
+                <div class="about__buttons">
+                    <a href="assets/file/resume.pdf" download="Harsh_Dhoke-Resume" target="_blank" class="button button--flex">
+                        Download Resume <i class="uil uil-download-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- ------------- Skills-------------------->
+        <section class="skills section" id="skills">
+            <h2 class="section__title"> My Expertise </h2>
+            <span class="section__subtitle">  </span>
+
+            <div class="skills__container container grid">
+                <div class="row" id="skillset_container">
+                    <!-- Skill 1 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/cpp.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> C++ </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/dsa.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> DSA </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/python.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Python </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/c.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> C </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 5 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/java.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Java </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 6 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/html5.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> HTML </h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill 7 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/css.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> CSS </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 8 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/tailwind-css.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Tailwind CSS </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 9 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/javascript.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> JavaScript </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 10 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/react.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> ReactJS </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 11 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/node.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> NodeJS </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 12 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/express.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> ExpressJS </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 13 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/jquery.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> jQuery </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 14 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/bootstrap.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Bootstrap </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 15 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/sql.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> SQL </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 16 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/mysql.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> MySQL </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 17 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/mongodb.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> mongoDB </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 18 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/git.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Git </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 19 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/github.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> GitHub </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 20 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/git-bash.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> GitBash </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 21 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/figma.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Figma </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 22 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/uml.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> UML </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 23 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/linux.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Linux </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 24 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/ml.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Machine Learning </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 25 -->
+                    <div class="skills__container-card">
+                        <div class="card_skill shadow2">
+                            <div class="imgBx">
+                                <img src="assets/logo/blockchain.svg" alt="HTML logo">
+                            </div>
+                            <div class="contentBx">
+                                <h2> Blockchain </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!-- ------------- QUALIFICATIONS (Education and Experience) -------------------->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title"> My Qualification </h2>
+            <span class="section__subtitle">  </span>
+
+            <div class="qualification__container container">
+
+                <div class="row mt-lg-0">
+                    <!-- Education -->
+                    <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+                        <div class="qualification__button button--flex">
+                            <i class="uil uil-graduation-cap qualification__icon"></i> Education
+                        </div>
+
+                        <div id="education_timeline">
+                            <div class="container py-2">
+
+                                <!-- Timeline item 1 -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                2023 - 25
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content Events -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title"> Master's in Computer Science and Engineering </h3>
+                                                        <p class="qualification__subtitle"> National Institute of Technology (NIT), Rourkela</p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> Software Architecture, Software Development, Software Tseting, 
+                                                            Data Structures and Algorithm Design, Advanced Computer Networks, Blockchain, Machine Learning, 
+                                                            Quantum Computing, System Design  </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Timeline item 2 -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                2019 - 23
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content Events -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title"> Bachelor's in Computer Science and Engineering </h3>
+                                                        <p class="qualification__subtitle"> JD College of Engineering and Management, Nagpur </p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> C++, Data Structures and Algorithms, 
+                                                            Object Oriented Programming, Database Management Systems, 
+                                                            Computer Networks, Machine Learning, Blockchain, Web Development</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                 <!-- Timeline item 3 -->
+                                 <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                2016 - 18
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content Events -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title"> Higher Secondary Education </h3>
+                                                        <p class="qualification__subtitle">St. Francis De Sales College</p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> Physics, Chemistry, Mathematics, Biology, and English. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                 <!-- Timeline item end -->
+                                 <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__start">
+                                                    <i class="uil uil-rocket qualification__start-icon"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content Events -->
+                                    <div class="col py-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
+                        <div class="qualification__button button--flex">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i> Experience
+                        </div>
+
+                        <div id="expreience_timeline">
+                            <div class="container py-2">
+                                <!-- Timeline item 1 -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                2024 - 25
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content Events -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title"> Research and Teaching Assistant </h3>
+                                                        <p class="qualification__subtitle"> National Institute of Technology (NIT), Rourkela </p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> I'm actively engaged in research under the guidance of Prof. Pabitra Mohan Khillar, 
+                                                            exploring intriguing topics within the realm of Data Imputation. 
+                                                            Concurrently, I serve as a dedicated teaching assistant, crafting engaging lab experiences to enrich the educational 
+                                                            journey of students. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                 <!-- Timeline item 2 -->
+                                 <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                2023 - 23
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content Events -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title"> Software Development Engineer (SDE) - Intern </h3>
+                                                        <p class="qualification__subtitle"> Acclaim Coding Solutions, Chikkaballapur, Karnataka </p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> I specialize in the development and management of high-quality web applications for global clients. 
+                                                            Leveraging my expertise I created visually appealing and functional websites that exceed client expectations. Additionally, I utilize design tools like Figma to ensure optimal user experience and client satisfaction. 
+                                                            My tech stack includes Figma Software, HTML, CSS, JavaScript, and ReactJS. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                 <!-- Timeline item 3 -->
+                                 <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+
+                                        <h5>
+                                            <span class="badge qualification__calendar">
+                                                <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                                2022 - 23
+                                            </span>
+                                        </h5>
+
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__line"></span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content Events -->
+                                    <div class="col py-2">
+                                        <div class="card education-card transparent_card mirror-face shadow2">
+                                            <div class="card-body">
+                                                <div class="task">
+                                                    <div class="abstract">
+                                                        <h3 class="qualification__title"> Developer Intern </h3>
+                                                        <p class="qualification__subtitle"> Persistent Systems, Nagpur, Maharashtra </p>
+                                                    </div>
+                                                    <div class="details">
+                                                        <p class="qualification__subtitle"> During my internship at Smart Internz powered by Salesforce and Persistent Systems, 
+                                                            I served as a Salesforce Developer Intern. In this role, I was responsible for managing and developing software applications 
+                                                            on the Salesforce Trailblazer platform, leveraging my expertise in Salesforce development. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Timeline item end -->
+                                <div class="row">
+                                    <!-- Timeline design -->
+                                    <div class="col-auto text-center flex-column d-sm-flex">
+                                        <div class="row h-50 qualification__journey">
+                                            <div class="col">
+                                                <span class="qualification__start">
+                                                    <i class="uil uil-rocket qualification__start-icon"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col">&nbsp;</div>
+                                        </div>
+                                    </div>
+                                    <!-- Timeline content Events -->
+                                    <div class="col py-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ------------- PORTFOLIO -------------------->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">My Recent Work</h2>
+            <span class="section__subtitle"> </span>
+
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                    
+                    
+                    <!-- For portfolio item 1 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/blog_page.png" alt="Sign Language Translator">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> March 2024 </span>
+                            <div class="blog-slider__title"> Blogging Page </div>
+                            <div class="blog-slider__text"> Developed a blogging website in which I can effortlessly manage and integrate dynamic blog content 
+                                using React.js and Sanity.io, empowering seamless updates and enhanced user experience.</div>
+                            <a href="https://harsh-dhoke-blogging-website.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                            <a href="https://github.com/harshdhoke/Blogging-Website" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 2 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/portfolio_3.png" alt="Sign Language Translator">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> March 2024 </span>
+                            <div class="blog-slider__title"> Portfolio Website </div>
+                            <div class="blog-slider__text"> Crafted a dynamic personal portfolio with Slider.js integration for immersive presentation and Email.js for seamless communication, ensuring a polished user experience. 
+                                Also contains features like theme switching between dark/light modes and Resume download.</div>
+                            <a href="#home" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+
+                            <a href="https://github.com/harshdhoke/Portfolio-3" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- For portfolio item 3 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/sign_language.png" alt="Sign Language Translator">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> April 2023 </span>
+                            <div class="blog-slider__title"> Sign Language Translator </div>
+                            <div class="blog-slider__text"> Developed a Machine Learning model for sign language classification using OpenCV and K-Nearest Neighbors
+                                algorithm that can translate sign language to text and speech.</div>
+                            <a href="https://sign-language-translator-using-knn.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                            <a href="https://github.com/harshdhoke/Sign-Language-Identification-using-K_Nearest_Neighbor-Algorithm" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 4 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/wedding_website.png" alt="Wedding Wensite">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> May 2023 </span>
+                            <div class="blog-slider__title"> Wedding Website </div>
+                            <div class="blog-slider__text"> Designed a wedding website using Figma for the design and HTML, CSS, and JavaScript for building the website.</div>
+                            <a href="https://karl-and-ginas-wedding-website.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                            <a href="https://github.com/harshdhoke/Wedding_Website" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 5 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/hvm_player.png" alt="HVM Player">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> March 2023 </span>
+                            <div class="blog-slider__title"> HVM Player </div>
+                            <div class="blog-slider__text"> Developed an online video player application that fetch relevant video content from YouTube API.
+                                Implemented various features such as video controls and playback speed adjustment to enhance the user experience.</div>
+                            <a href="https://hvm-player-yt-harsh-dhoke.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                            <a href="https://github.com/harshdhoke/HVM-Player" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 6 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/csv_reader.png" alt="CSV Reader">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> Feb 2023 </span>
+                            <div class="blog-slider__title"> CSV Reader </div>
+                            <div class="blog-slider__text"> Developed a CSV reader that reads a CSV file and displays its contents in a table format.</div>
+                            <a href="https://my-csv-reader-web.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                            <a href="https://github.com/harshdhoke/CSV-Reader" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 7 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/portfolio_2.png" alt="Portfolio 2">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> Jan 2023 </span>
+                            <div class="blog-slider__title"> Portfolio Website </div>
+                            <div class="blog-slider__text"> Developed a responsive website with theme switching between dark/light modes and CV download feature.
+                                Incorporated various animations, transitions and also integrated an auto-mail sending feature.
+                                </div>
+                            <a href="https://harsh-dhoke-portfolio-1.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                            <a href="https://github.com/harshdhoke/Portfolio-New" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 8 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/login_register.png" alt="Login Register">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> Dec 2022 </span>
+                            <div class="blog-slider__title"> Login/ Register Page </div>
+                            <div class="blog-slider__text"> Designed and implemented a login/register page tailored for an online programming competition.</div>
+                            <a href="https://elegant-dasik-82822d.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                            <a href="https://github.com/harshdhoke/login-register" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- For portfolio item 9 -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="assets/work/portfolio_1.png" alt="Portfolio 1">
+                        </div>
+
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code"> Nov 2022 </span>
+                            <div class="blog-slider__title"> Portfolio Website </div>
+                            <div class="blog-slider__text"> Developed a portfolio website with integrated blogging functionality, utilizing Sanity as the platform for managing and uploading blog content.</div>
+                            <a href="https://harshdhoke-portfolio.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Demo
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                            <a href="https://github.com/harshdhoke/Portfolio/" target="_blank" class="button blog-slider__button button--flex"> 
+                                Code
+                                <i class="uil uil-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="blog-slider__pagination"></div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    <!-- ------------- PORTFOLIO -------------------->
+    <section class="blog section" id="blog">
+        <h2 class="section__title">My Recent Blogs</h2>
+        <span class="section__subtitle"> </span>
+
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                
+                <!-- For portfolio item 1 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="assets/work/blog.png" alt="Blogging Website">
+                    </div>
+
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title"> My Blog Page  </div>
+                        <div class="blog-slider__text"> Welcome to my dynamic corner of the internet where innovation meets exploration! Dive into the latest breakthroughs in emerging technologies, stay updated on programming languages, and explore my unique innovations. Click below to embark on an exciting journey through my insightful blogs.</div>
+                        <a href="https://harsh-dhoke-blogging-website.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                            Go to Blog Page
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- For portfolio item 1 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="assets/work/blog.png" alt="Blogging Website">
+                    </div>
+
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title"> My Blog Page  </div>
+                        <div class="blog-slider__text"> It is the same page click the link below to head to my blog page.</div>
+                        <a href="https://harsh-dhoke-blogging-website.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                            Go to Blog Page
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- For portfolio item 1 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="assets/work/blog.png" alt="Blogging Website">
+                    </div>
+
+                    <div class="blog-slider__content">
+                        <div class="blog-slider__title"> My Blog Page  </div>
+                        <div class="blog-slider__text"> OOPs! again the same page. Click the link below to head to my blog page or scroll through side of this slider to move downward.</div>
+                        <a href="https://harsh-dhoke-blogging-website.netlify.app/" target="_blank" class="button blog-slider__button button--flex"> 
+                            Go to Blog Page
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="blog-slider__pagination"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- ------------- CONTACT US -------------------->
+        <section class="contact section" id="contact">
+            <h2 class="section__title"> Contact Me </h2>
+            <span class="section__subtitle"> </span>
+
+            <div class="row mt-lg-6 justify-content-center contact_mail">
+                <!-- Contact information -->
+                <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">
+                                <a href="tel:9158524227" target="_blank"> 
+                                    <div class="contact-div">9158524227</div>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contact__subtitle">
+                                <a href="mailto:harshdhoke0@gmail.com" target="_blank"> 
+                                    <div class="contact-div">harshdhoke0@gmail.com</div>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-location-pin-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__subtitle"> 
+                                <a href="geo:21.142434926423917, 79.06561935345644" target="_blank"> 
+                                    <div class="contact-div">Nagpur, Maharashtra - India</div>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORM -->
+                <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+                    <h2 class="contact__title contact__heading"> Interested to work together? - <span> Let's talk </span></h2>
+
+                    <form id="contact-form" class="cf">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" name="message-name" id="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                            </div> 
+                            <div class="col-lg-6">
+                                <input type="email" name="message-email" id="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" name="message-subject" id="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" id="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="button" onclick="sendEmail()" class="button button--flex send-message form_button">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
+                                <p id="errorMessage2" style="display: none; color: red;">Failed to send email. Please try again later.</p>
+                                <p id="errorMessage" style="display: none; color: red;">Please fill out all fields before sending the message.</p>
+                                <p id="statusMessage" style="display: none; color: green;">Message sent successfully!</p>
+                                <p id="errorMessage3" style="display: none; color: red;">Invalid Email! Please enter a valid email address.</p>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- ------------- FOOTER -------------------->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+
+                <div>
+                    <h1 class="footer__title"> <div class="footer_title">HARSH DHOKE</div> </h1>
+                    <span class="footer__subtitle"> <div class="footer_subtitle">Software Engineer and Developer</div></span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link"> About Me</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link"> My Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link"> Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/harsh-dhoke-23a6a81a8/" target="_blank" class="footer__social" id="myLinkedIn">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a href="https://github.com/harshdhoke" target="_blank" class="footer__social" id="myGithub">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                    <a href="https://twitter.com/Harsh__Dhoke" target="_blank" class="footer__social" id="myTwitter">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/the_harsh_dhoke/" target="_blank" class="footer__social" id="myInstagram">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/harsh.dhoke.79/" target="_blank" class="footer__social" id="myFacebook">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy"> Site Design & Logo &#169; 2024, Harsh Dhoke</p>
+        </div>
+    </footer>
+  
+
+<!-- ------------- SCROLL TOP -------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- Core -->
+    <script src="js/core/jquery.min.js"></script>
+    <script src="js/core/popper.min.js"></script>
+    <script src="js/core/bootstrap.min.js"></script>
+
+    <!-- Argon JS -->
+    <script src="js/argon-design-system.js"></script>
+
+    <!--  Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Self Script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
