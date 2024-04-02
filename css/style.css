@@ -1323,204 +1323,342 @@ img{
 
     /* ===================== MEDIA QUERIES ================== */
 
-  /* Small Screen */
-  @media screen and (max-width: 350px){
-    .container{
-      margin-left: var(--mb-0-25);
-      margin-right: var(--mb-1);
-    }
+  @media screen and (max-width: 100px){
 
-    .nav__menu{
-      padding: 2rem 0.25rem 4rem;
-    }
+  }
 
-    .nav__list{
-      column-gap: 0;
-    }
-
-    .home__content{
-      grid-template-columns: .25fr 3fr;
-    }
-
-    .home__scroll{
-      margin-top: var(--mb-0-25);
-    }
-
-    .home__scroll-mouse{
-      margin-top: var(--mb-0-25);
-    }
-
-    .about{
-      margin-top: 6rem;
-    }
-    .qualification__data{
-      gap: 0.5rem;
-    }
-
-    .contact_mail{
-      margin-left: var(--mb-1-5);
-    }
-
-    ::-webkit-scrollbar{
-      width: 0.4rem;
-      border-radius: 0.4rem;
-    }
-
-    ::-webkit-scrollbar-thumb{
-      background-color: var(--scroll-thumb-color);
-      border-radius: 0.2rem;
-    }
-
+  @media screen and (max-width: 200px){
     
+  }
+
+  @media screen and (max-width: 300px){
     .footer__container{
-      margin-left: -5.1rem;
+      margin-right: 40rem;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+
+    .home__welcome,
+    .home__title,
+    .Typewriter__cursor,
+    .home__scroll-button,
+    .contact_button,
+    .home__subtitle,
+    .about,
+    .about__container,
+    .home__container,
+    .skill__container,
+    .portfolio__container,
+    .contact__container,
+    .footer__container {
+        margin: 0;
+        padding-left: var(--mb-1);
+        padding-right: var(--mb-1);
+        grid-template-columns: 1fr;
+    }
+
+    .home__welcome {
+        margin-left: -5rem;
+    }
+
+    .home__title,
+    .Typewriter__cursor,
+    .home__subtitle {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+    }
+
+    .home__scroll-button {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .contact_button {
+        margin-right: 0;
+    }
+
+    .about {
+        margin-top: -10rem;
+    }
+
+    .qualification__sections {
+        display: grid;
+        grid-template-columns: 0.85fr;
+        justify-content: center;
+    }
+
+    .blog-slider__button {
+        margin-bottom: 1rem;
+    }
+
+    .contact__information {
+        margin-right: 3rem;
+    }
+
+    .contact__title {
+        margin-left: 0;
+    }
+
+    .contact-form {
+        margin-right: 2.5rem;
+    }
+
+    .portfolio {
+        padding-bottom: var(--mb-0-25);
+    }
+
+    .contact {
+        padding-top: 0;
+    }
+
+    .qualification__start-icon {
+        position: absolute;
+        transform: translateY(60%);
+    }
+
+    .footer_title {
+        margin-left: -3rem;
+    }
+
+    .footer_subtitle {
+        margin-left: 2rem;
+    }
+
+    .footer__socials {
+        margin-left: -1rem;
+    }
+
+    .footer__copy {
+        margin-left: 0.75rem;
+        margin-bottom: 1rem;
+    }
+}
+
+  
+  @media screen and (max-width: 500px){
+
+    .home__welcome{
+      margin-left: -5rem; /* Adjusted to move content to the left by 5rem */
+    }
+
+    .home__title,
+    .Typewriter__cursor,
+    .home__subtitle,
+    .contact_button,
+    .about {
+      margin-left: -5rem; /* Adjusted to move content to the left by 5rem */
+    }
+
+    .home__scroll-button{
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+
+    .home__container,
+    .about__container,
+    .skill__container,
+    .portfolio__container {
+      grid-template-columns: 1fr;
+      padding-left: var(--mb-1);
+      padding-right: var(--mb-1);
+    }
+
+    .contact-form{
+      padding-right: 4rem;
+    }
+
+    .qualification__sections {
+      display: grid;
+      grid-template-columns: 0.85fr;
+      justify-content: center;
+    }
+
+    .blog-slider__button{
+      margin-bottom: 1rem;
+    }
+
+    .contact__information{
+      margin-right: 0;
+    }
+
+    .contact__title{
+      margin-left: 0;
+    }
+
+    .contact-form{
+      margin-right: 0;
+    }
+
+    .portfolio{
+      padding-bottom: var(--mb-0-25);
+    }
+
+    .contact{
+      padding-top: 0;
+    }
+
+    .qualification__start-icon{
+      position: static;
+      transform: none;    
+    }
+
+    .footer__container{
+      margin-right: 0;
     }
 
     .footer_title{
-      padding-right: 2rem;
+      margin-left: -3.5rem;
+      margin-right: 0;
     }
 
-    .home__welcome{
-      margin-right: 5rem;
+    .footer__subtitle{
+      margin-right: 0;
     }
-    
 
+    .footer__socials{
+      margin-left: 0;
+    }
 
-  }
+    .footer__copy{
+      margin-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+}
 
 
 
   /* Medium size Screen devices */
-  @media screen and (max-width: 568px){
-
-    .home__welcome{
-      margin-right: 15rem;
+  @media screen and (max-width: 600px){
+    
+    .home__title, 
+    .Typewriter__cursor, 
+    .home__scroll-button, 
+    .home__subtitle {
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        width: auto;
     }
 
-    .home__title{
-      margin-right: 15rem;
-    }
-
+    .home__welcome,
+    .home__title,
     .Typewriter__cursor{
-      margin-right: 14rem;
-    }
-
-
-    .home__scroll-button{
-      margin-right: -2rem;
+      padding-right:12rem;
     }
 
     .contact_button{
-      margin-right: 15rem;
+      margin-right: 10rem;
     }
 
     .home__subtitle{
-      margin-right: 15rem;
-      padding-right: 17rem;
+      padding-right: 11rem;
     }
 
-    .about{
-      margin-top: -20rem;
+    .about {
+        margin-top: 0;
     }
 
-      .about__container,
-      .home__container,
-      .skill__container,
-      .portfolio__container,
-      .contact__container,
-      .footer__container{
+    .blog-slider__button{
+      margin-top: 1rem;
+    }
+
+    .contact__container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .qualification__sections {
         grid-template-columns: 1fr;
-        padding-left: var(--mb-1);
-        padding-right: var(--mb-1);
-      }
-
-      .qualification__sections{
-        display: grid;
-        grid-template-columns: 0.85fr;
         justify-content: center;
-      }
+    }
 
-      .blog-slider__button{
-        margin-bottom: 1rem;
-      }
+    .blog-slider__button {
+        margin-bottom: 0;
+    }
 
-      .contact__information{
-        margin-right: 3rem;
-      }
+    .contact__information {
+        margin-right: 0;
+    }
 
-      .contact__title{
-        margin-left: 0rem;
-      }
+    .contact__title {
+        margin-left: 0;
+    }
 
-      .contact-form{
-        margin-right: 2.5rem;
-      }
+    .contact-form {
+        margin-right: 0;
+    }
 
-      .portfolio{
-        padding-bottom: var(--mb-0-25);
-      }
-      .contact{
+    .portfolio {
+        padding-bottom: 0;
+    }
+
+    .contact {
         padding-top: 0;
-      }
-      .qualification__start-icon{
-        position: absolute;
-        transform: translateY(60%);    
-      }
+    }
 
-      .footer_title{
-        margin-left: -3rem;
-      }
+    .qualification__start-icon {
+        transform: translateY(0);
+    }
 
-      .footer_subtitle{
-        margin-left: 2rem;
-      }
-  
-      .footer__socials{
-        margin-left: -1rem;
-      }
-  
-      .footer__copy{
-        margin-left: 0.75rem;
-        margin-bottom: 1rem;
-      }
-  }
+    
+    .footer__socials, 
+    .footer__copy {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer__title{
+      padding-left: 1rem;
+    }
+
+    .footer_subtitle{
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+    }
+}
 
   @media screen and (max-width: 767px){
 
     .home__welcome{
-      margin-left: 3rem;
+      margin-left: 10rem;
     }
 
     .home__title{
-      margin-left: 3rem;
+      margin-left: 10rem;
     }
 
     .Typewriter__wrapper{
-      margin-left: 3rem;
+      margin-left: 10rem;
     }
 
     .home__subtitle{
-      margin-left: 2rem;
+      margin-left: 4rem;
       width: 600px;
     }
 
     .home__scroll-button{
-      margin-left: -1rem;
+      margin-left: 0rem;
     }
 
     .about{
-      margin-top: -20rem;
+      margin-top: 10rem;
     }
 
     .contact_button{
-      margin-left: 3rem;
+      margin-left: 8rem;
+    }
+
+    .contact__heading{
+      margin-left: 2rem;
     }
     
     .footer__title{
       margin-left: 10rem;
     }
     .footer_subtitle{
-      margin-left: 5rem;
+      margin-left: 8.5rem;
     }
     .footer__links{
       margin-right: 3rem;
