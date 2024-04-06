@@ -1332,200 +1332,128 @@ img{
   }
 
   @media screen and (max-width: 300px){
-    .footer__container{
-      margin-right: 40rem;
-    }
   }
 
-  @media screen and (max-width: 400px){
 
-    .home__welcome,
-    .home__title,
-    .Typewriter__cursor,
-    .home__scroll-button,
-    .contact_button,
-    .home__subtitle,
-    .about,
-    .about__container,
-    .home__container,
-    .skill__container,
-    .portfolio__container,
-    .contact__container,
-    .footer__container {
-        margin: 0;
-        padding-left: var(--mb-1);
-        padding-right: var(--mb-1);
-        grid-template-columns: 1fr;
+
+  @media screen and (max-width: 400px) {
+
+    .home_welcome{
+      padding-right: 5rem;
     }
 
-    .home__welcome {
-        margin-left: -5rem;
+    .home__scroll{
+      margin-bottom: 5rem;
     }
 
-    .home__title,
-    .Typewriter__cursor,
-    .home__subtitle {
-        margin-right: 0;
-        margin-left: 0;
-        padding-right: 0;
+    .home_title{
+      padding-right: 7rem;
     }
 
-    .home__scroll-button {
-        margin-right: 0;
-        margin-bottom: 2rem;
+    .about{
+      padding-top: 5rem;
     }
 
-    .contact_button {
-        margin-right: 0;
+    .section__title{
+      margin-top: 5rem;
     }
 
-    .about {
-        margin-top: -10rem;
+    .typeWriter{
+      padding-right: 2rem;
     }
 
-    .qualification__sections {
-        display: grid;
-        grid-template-columns: 0.85fr;
-        justify-content: center;
+    .Typewriter__cursor{
+      padding-right: 5rem;
     }
 
-    .blog-slider__button {
-        margin-bottom: 1rem;
+    .Typewriter__wrapper{
+      padding-right: 0;
     }
 
-    .contact__information {
-        margin-right: 3rem;
+    .home_subtitle{
+      padding-right: 7rem;
     }
 
-    .contact__title {
-        margin-left: 0;
+    .contact__button{
+      padding-left: 2rem;
     }
 
-    .contact-form {
-        margin-right: 2.5rem;
-    }
-
-    .portfolio {
-        padding-bottom: var(--mb-0-25);
-    }
-
-    .contact {
-        padding-top: 0;
-    }
-
-    .qualification__start-icon {
-        position: absolute;
-        transform: translateY(60%);
-    }
-
-    .footer_title {
-        margin-left: -3rem;
-    }
-
-    .footer_subtitle {
-        margin-left: 2rem;
-    }
-
-    .footer__socials {
-        margin-left: -1rem;
-    }
-
-    .footer__copy {
-        margin-left: 0.75rem;
-        margin-bottom: 1rem;
-    }
-}
-
-  
-  @media screen and (max-width: 500px){
-
-    .home__welcome{
-      margin-left: -5rem; /* Adjusted to move content to the left by 5rem */
-    }
-
-    .home__title,
-    .Typewriter__cursor,
-    .home__subtitle,
-    .contact_button,
-    .about {
-      margin-left: -5rem; /* Adjusted to move content to the left by 5rem */
-    }
-
-    .home__scroll-button{
-      margin-right: 0;
-      margin-bottom: 2rem;
-    }
-
-    .home__container,
-    .about__container,
-    .skill__container,
-    .portfolio__container {
-      grid-template-columns: 1fr;
-      padding-left: var(--mb-1);
-      padding-right: var(--mb-1);
-    }
-
-    .contact-form{
-      padding-right: 4rem;
-    }
-
-    .qualification__sections {
-      display: grid;
-      grid-template-columns: 0.85fr;
-      justify-content: center;
-    }
-
-    .blog-slider__button{
-      margin-bottom: 1rem;
-    }
-
-    .contact__information{
-      margin-right: 0;
-    }
-
-    .contact__title{
-      margin-left: 0;
-    }
-
-    .contact-form{
-      margin-right: 0;
-    }
-
-    .portfolio{
-      padding-bottom: var(--mb-0-25);
-    }
-
-    .contact{
-      padding-top: 0;
-    }
-
-    .qualification__start-icon{
-      position: static;
-      transform: none;    
+    .about{
+      padding-top: 4rem;
     }
 
     .footer__container{
-      margin-right: 0;
+      margin-left: -5rem;
     }
-
     .footer_title{
-      margin-left: -3.5rem;
-      margin-right: 0;
+      padding-left: 2rem;
     }
 
-    .footer__subtitle{
-      margin-right: 0;
-    }
-
-    .footer__socials{
-      margin-left: 0;
-    }
-
-    .footer__copy{
-      margin-left: 0.75rem;
-      margin-bottom: 1rem;
-    }
 }
+
+
+
+  
+@media screen and (max-width: 500px){
+  .home_welcome{
+    margin-left: 0;
+    width: 400px;
+    margin-right: 7rem;
+    padding-right: 15rem;
+  }
+
+  .home_title{
+    margin-left: -4rem;
+    width: 300px;
+  }
+
+  .typeWriter{
+    margin-left: -6rem;
+  }
+
+  .home__social-icon{
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .home__social{
+    margin-top: -5rem;
+  }
+
+
+
+  .home_subtitle{
+    margin-left: -1rem;
+    width: 300px;
+  }
+
+  .contact__button{
+    margin-left: -9rem;
+  }
+
+  .about{
+    padding-top: 5rem;
+  }
+
+  .home__data {
+    margin-left: 2rem;
+  }
+
+  .contact-form{
+    padding-right: 4rem;
+  }
+
+  .footer_title{
+    margin-left: -3rem;
+  }
+
+  .footer_subtitle{
+    padding-right: 5rem;
+    margin-left: 0;
+  }
+
+}
+
 
 
 
@@ -1542,7 +1470,7 @@ img{
         width: auto;
     }
 
-    .home__welcome,
+    .home_welcome,
     .home__title,
     .Typewriter__cursor{
       padding-right:12rem;
@@ -1621,20 +1549,20 @@ img{
 
   @media screen and (max-width: 767px){
 
-    .home__welcome{
-      margin-left: 10rem;
+    .home_welcome{
+      margin-left: 8rem;
     }
 
     .home__title{
-      margin-left: 10rem;
+      margin-left: 8rem;
     }
 
     .Typewriter__wrapper{
-      margin-left: 10rem;
+      margin-left: 8rem;
     }
 
     .home__subtitle{
-      margin-left: 4rem;
+      margin-left: 3rem;
       width: 600px;
     }
 
@@ -1647,7 +1575,7 @@ img{
     }
 
     .contact_button{
-      margin-left: 8rem;
+      margin-left: 7rem;
     }
 
     .contact__heading{
@@ -1672,7 +1600,7 @@ img{
   /* Large size Screen devices */
   @media screen and (min-width: 768px){
     
-    .home__welcome{
+    .home_welcome{
       margin-left: 4rem;
     }
 
@@ -1769,7 +1697,7 @@ img{
     }
 
     .about{
-      margin-top: 4rem;
+      margin-top: 10rem;
     }
     .about__container{
       column-gap: 5rem;
@@ -1833,7 +1761,7 @@ img{
 
   @media screen and (min-width: 950px){
     .about{
-      margin-top: -15rem;
+      margin-top: 15rem;
     }
 
     .home__social{
@@ -1900,7 +1828,7 @@ img{
       margin-left: 10rem;
     }
 
-    .home__welcome{
+    .home_welcome{
       margin-left: -10rem;
     }
 
@@ -1993,7 +1921,7 @@ img{
       margin-top: -10rem;
     }
 
-    .home__welcome{
+    .home_welcome{
       margin-left: -14rem;
     }
 
@@ -2041,7 +1969,7 @@ img{
       flex-direction: row;
       column-gap: 2rem;
       margin-right: 2rem;
-      margin-left: -6rem;
+      margin-left: -4rem;
     }
 
     .footer__socials{
@@ -2087,11 +2015,11 @@ img{
     }
 
     .about{
-      margin-top: 3rem;
+      margin-top: 5rem;
     }
 
     .home__scroll-button{
-      margin-left: -2rem;
+      margin-left: 0;
     }
 
     .contact__heading{
